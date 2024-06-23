@@ -1,4 +1,5 @@
   <!-- partial:partials/_settings-panel.html -->
+  <div class="container-fluid page-body-wrapper">
   <div class="theme-setting-wrapper">
     <div id="settings-trigger"><i class="typcn typcn-cog-outline"></i></div>
     <div id="theme-settings" class="settings-panel">

@@ -31,9 +31,14 @@
             </a>
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('dashform')}}">classes form </a></li>
               </ul>
             </div>
+            {{-- <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link" href="{{route('kidform')}}">kids form </a></li>
+              </ul>
+            </div> --}}
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
@@ -55,7 +60,7 @@
             </a>
             <div class="collapse" id="tables">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Basic table</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('dashtable')}}">classes table</a></li>
               </ul>
             </div>
           </li>
@@ -79,8 +84,8 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('login')}}"> Login </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{route('register')}}"> Register </a></li>
               </ul>
             </div>
           </li>
@@ -105,4 +110,5 @@
           </li>
         </ul>
       </nav>
-      <!-- partial -->
+      <!-- partial --> <div class="main-panel">
+      <div class="content-wrapper">

@@ -9,3 +9,8 @@
         </div>    
     </div>        
 </footer>
+</div>
+<!-- main-panel ends -->
+</div>
+<!-- page-body-wrapper ends -->
+</div>

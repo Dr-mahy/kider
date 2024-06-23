@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Home extends Controller
+class Kider extends Controller
 {
-   public function home(){
-      $title="home";
-    return view('home',compact('title'));
+   public function kider(){
+      $title="kider";
+    return view('kider',compact('title'));
    }
    public function about(){
       $title="about";
